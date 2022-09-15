@@ -1,0 +1,181 @@
+@import "null.css";
+
+/* ========== Подключение шрифтов c корневой папки ========== */
+
+/*
+
+100 Thin
+200 Extra Light
+300 Light
+400 Normal
+500 Medium
+600 Semi Bold
+700 Bold
+800 Extra Bold
+900 Black
+
+*/
+
+/* Просто для условий домашки :) */
+
+@font-face {
+   font-family: "Open Sans";
+   src: url("../fonts/OpenSans-Regular.woff2") format("woff2"),
+      url("../fonts/OpenSans-Regular.woff") format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Open Sans";
+   src: url("../fonts/OpenSans-Medium.woff2") format("woff2"),
+      url("../fonts/OpenSans-Medium.woff") format("woff");
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Open Sans";
+   src: url("../fonts/OpenSans-ExtraBold.woff2") format("woff2"),
+      url("../fonts/OpenSans-ExtraBold.woff") format("woff");
+   font-weight: 800;
+   font-style: normal;
+   font-display: swap;
+}
+
+body {
+   background-color: rgb(41, 41, 41);
+   text-align: center;
+   padding: 20px;
+}
+
+/* ========== Шапка и надпись ========== */
+
+.header {
+   font-family: "Noto Sans JP";
+   font-weight: 900;
+   font-style: italic;
+   font-size: 30px;
+   text-transform: capitalize;
+   word-spacing: 25px;
+   margin-bottom: 100px;
+}
+
+.word1 {
+   color: red;
+   text-decoration: underline;
+   text-shadow: 100px 2px 2px rgb(161, 13, 13);
+   letter-spacing: 10px;
+   font-size: 50px;
+}
+
+.word2 {
+   color: green;
+   text-decoration: line-through;
+   text-shadow: 20px 30px 2px rgb(37, 223, 13);
+   font-size: 40px;
+}
+
+.word3 {
+   color: blue;
+   text-transform: uppercase;
+   font-size: 20px;
+}
+
+.word4 {
+   color: rgb(230, 230, 42);
+   text-transform: lowercase;
+   letter-spacing: -10px;
+}
+
+.word5 {
+   color: purple;
+   text-decoration: underline;
+   letter-spacing: 10px;
+   text-shadow: 2px 2px 30px rgb(164, 13, 223);
+}
+
+.word6 {
+   color: orange;
+   font-size: 40px;
+}
+
+.word7 {
+   color: aqua;
+   text-shadow: 2px 2px 1px rgb(14, 159, 226);
+   text-decoration: line-through;
+}
+
+/* ========== Картинки ========== */
+
+.img-doctor {
+   text-align: left;
+}
+
+.img-dark-doctor {
+   text-align: right;
+   margin-bottom: 100px;
+}
+
+/* ========== Текст ========== */
+
+div > p {
+   font-family: "Noto Sans Buhid";
+   font-weight: 400;
+   font-size: 20px;
+   text-align: justify;
+}
+
+.doctor {
+   font-family: "Noto Sans Buhid";
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 60px;
+   letter-spacing: 20px;
+   word-spacing: 15px;
+   text-shadow: 30px 30px 5px rgb(212, 212, 29);
+   color: rgb(255, 156, 8);
+   text-indent: 100px;
+}
+
+.doctor + p {
+   line-height: 40px;
+   letter-spacing: 20px;
+   word-spacing: 10px;
+   text-shadow: 30px 5px 5px rgb(255, 0, 255);
+   color: rgb(130, 4, 247);
+   display: inline;
+}
+
+.uppercase {
+   text-transform: uppercase;
+   font-size: 15px;
+}
+
+.overline {
+   text-decoration: overline;
+   font-size: 10px;
+}
+
+.underline {
+   text-decoration: underline;
+   font-size: 18px;
+   letter-spacing: -5px;
+}
+
+.line-through {
+   text-decoration: line-through;
+   font-size: 30px;
+   letter-spacing: -10px;
+}
+
+/* ========== Подвал ========== */
+
+.footer {
+   font-family: "Open Sans";
+   font-weight: 800;
+   font-size: 30px;
+   color: rgb(143, 32, 32);
+}
