@@ -34,6 +34,10 @@
    gap: 10px;
 }
 
+.form-block__subtitle:not(:last-child) {
+   margin-bottom: 8px;
+}
+
 .form-block__subtitle::before,
 .form-block__subtitle::after {
    content: "";
@@ -60,6 +64,10 @@
    line-height: 130%;
    text-align: center;
    color: #1e212c;
+}
+
+.form-block__title:not(:last-child) {
+   margin-bottom: 40px;
 }
 
 .form-block__form {
