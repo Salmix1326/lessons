@@ -127,7 +127,7 @@
 
 .file-block {
    position: relative;
-   align-self: center;
+   align-self: flex-start;
    flex: 0 0 150px;
 }
 
