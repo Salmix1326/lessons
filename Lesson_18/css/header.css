@@ -1,0 +1,100 @@
+/* =================================================== */
+.header {
+   width: 100%;
+   position: fixed;
+   top: 0;
+   left: 0;
+   padding: 20px 0px;
+   z-index: 3;
+   background-color: #f15b56d8;
+}
+
+.header__container {
+   display: grid;
+   grid-template-columns: 130px 1fr auto;
+   align-items: center;
+   gap: 60px;
+}
+
+.nav__list {
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(67px,1fr));
+   grid-auto-flow: row;
+   gap: 40px;
+   height: 100%;
+}
+
+.nav__link {
+   font-weight: 700;
+}
+
+.nav__link:hover {
+   text-decoration: underline;
+}
+
+.registration-header {
+   display: grid;
+   grid-template-columns: 210px 144px;
+   grid-template-rows: 52px;
+   align-items: center;
+   gap: 36px;
+}
+
+.registration-header__reg {
+   background: url("../img/Person.svg") left no-repeat;
+   padding-left: 24px;
+   font-weight: 700;
+   line-height: 1.25;
+}
+
+.registration-header__reg:hover span {
+   text-decoration: underline;
+}
+/* =================================================== */
+@media (max-width: 1096px) {
+   .header__container {
+      gap: 20px;
+   }
+}
+
+@media (max-width: 796px) {
+   .registration-header__button {
+      padding: 20px 15px;
+      font-size: 15px;
+   }
+}
+
+@media (max-width:776px) {
+
+   .header__container {
+      grid-template-columns: 130px 1fr;
+      justify-content: space-between;
+   }
+
+   .registration-header  {
+      float: right;
+      justify-self: end;
+   }
+
+   .header__nav {
+      display: none;
+   }
+
+   .nav__list {
+      display: none;
+   }
+}
+
+@media (max-width: 560px) {
+   .registration-header__button {
+      padding: 15px 10px;
+      font-size: 14px;
+   }
+
+   .registration-header {
+   gap: 5px;
+   grid-template-columns: 210px;
+   grid-template-rows: 52px 52px;
+   justify-items: end;
+   }
+}
