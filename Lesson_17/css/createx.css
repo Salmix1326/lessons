@@ -1,0 +1,154 @@
+/* =================================================== */
+.why-createx {
+   padding: 180px 0px;
+}
+
+.why-createx__container {
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   column-gap: 40px;
+}
+
+.why-createx__img {
+   flex: 1 1 705px;
+   position: relative;
+}
+
+.why-createx__img img {
+   width: 100%;
+}
+
+.why-createx__content {
+   flex: 1 1 390px;
+}
+
+.content-block-createx__subtitle {
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 150%;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   color: #1e212c;
+}
+
+.content-block-createx__subtitl:not(:last-child) {
+   margin-bottom: 8px;
+}
+
+.content-block-createx__title {
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 130%;
+   color: #1e212c;
+}
+
+.content-block-createx__title:not(:last-child) {
+   margin-bottom: 40px;
+}
+
+.content-block-createx__item {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 160%;
+   color: #424551;
+   display: flex;
+   column-gap: 16px;
+   align-items: center;
+}
+
+.content-block-createx__item:not(:last-child) {
+   margin-bottom: 12px;
+}
+
+.content-block-createx__item:last-child {
+   margin-bottom: 22px;
+}
+
+.content-block-createx__item::before {
+   content: "";
+   flex: 0 0 16px;
+   height: 16px;
+   background: url(../img/check.svg);
+   align-self: start;
+   margin-top: 5px;
+}
+
+.content-block-createx__button {
+   display: inline-block;
+}
+/* =================================================== */
+@media (max-width:1200px) {
+   .why-createx {
+      padding: 100px 0px;
+   }
+
+   .content-block-createx__title {
+   font-size: 30px;
+   }
+
+   .content-block-createx__title:not(:last-child) {
+      margin-bottom: 10px;
+   }
+
+}
+
+@media (max-width: 1050px) {
+   .content-block-createx__item {
+      font-size: 14px;
+   }
+}
+
+@media (max-width: 920px) {
+   .why-createx__container {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      column-gap: 0;
+   }
+}
+
+@media (max-width:760px) {
+   .why-createx__img {
+      flex: 1 1 705px;
+      position: relative;
+   }
+
+}
+
+@media (max-width:700px) {
+   .why-createx__img {
+      flex: 1 1 600px;
+      position: relative;
+   }
+
+}
+
+@media (max-width:600px) {
+   .why-createx {
+      padding: 70px 0px;
+   }
+
+   .why-createx__img {
+      flex: 1 1 500px;
+      position: relative;
+   }
+}
+
+@media (max-width:530px) {
+   .why-createx__img {
+      flex: 1 1 400px;
+      position: relative;
+   }
+}
+
+@media (max-width:400px) {
+   .why-createx {
+      padding: 50px 0px;
+   }
+
+   .why-createx__img {
+      flex: 1 1 300px;
+      position: relative;
+   }
+}
